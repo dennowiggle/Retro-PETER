@@ -17,11 +17,13 @@ Retro-PETER is a family of boards based around the Lattice ECP5 FPGA to create a
 **Disclaimer** This is a hobby project and a vehicle for play. Not intended to be a product or to be optimised for size, cost, function, or meet any standard. All boards are prototypes and should be considered such even if there are new revisions over time.
 
 ## Background
-John Winans has a video series and boards for an ice40HX4K + Z180 CPU card. This project grew from following along with those video's and projects. Here are some links to follow John's work :
+John Winans has a video series and boards for an ice40HX4K + Z180 CPU card aka Z80 Nouveau. There is also a companion CP/M video series and project files. This project grew from following along with those video's and projects. Here are some links to follow John's work :
 * John's Basement [FPGA](https://www.youtube.com/playlist?list=PL3by7evD3F52On-ws9pcdQuEL-rYbNNFB) YouTube series.
     - Supporting  [2057-ice40HX4K](https://github.com/johnwinans/2057-ICE40HX4K-TQ144-breakout) board.
     - [Code](https://github.com/johnwinans/Verilog-Examples) for Series.
 * John's Basement [Z80 Nouveau](https://www.youtube.com/playlist?list=PL3by7evD3F52rUbThUNDYGxNpKFF1HCNT) YouTube series.
     - Supporting [2067-Z8S180](https://github.com/johnwinans/2067-Z8S180/) board.
     - [Code](https://github.com/johnwinans/2067-Z8S180/tree/main/fpga) for Series.
+* John's Basement [Z80 Retro](https://www.youtube.com/playlist?list=PL3by7evD3F51Cf9QnsAEdgSQ4cz7HQZX5) YouTube series covering CP/M.
+    - [CP/M SW](https://github.com/Z80-Retro/2063-Z80-cpm) to go along wuth the video series and which supports 2057-ice40HX4K + 2067-Z8S180 aka Z80 Nouveau.
 * Johns Z80 Retro! [Discord](https://discord.gg/jf73DRZvh5) channel.
