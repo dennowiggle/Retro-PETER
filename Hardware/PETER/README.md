@@ -91,4 +91,7 @@ In addition there is an ESP32-S3 WiFi module for programming the FPGA and system
 10. The SRAM memory MEM_WE_N, MEM_OE_N, and MEM_CE_N signals are rounted through the FPGA and as a consequence there is about a ~10ns delay from the CPU_WR_N, CPU_RD_N, CPU_MREQ_N signals to their SRAM equivalent signals. 
     - If direct connection is needed for timing needs then the RCBUS board can be designed to directly connect to the SRAM memory signals. Alternatively the RCBUS expansion connector provides pins where jumper wires can be attached.
 
-11. U202 and U203 TPS62A02PDDCR used for the 3.3V and 1.1V power supplies is a 2A part. The system is low power and the 1A TPS62A01PDDCR should be sufficient and would provide a lower overcurrent trip point providing enhanced overcurrent protection. The 1A part is footprint and circuit compatible.
+11. The [FTDI DT_PROG](https://www.ftdichip.com/Support/Documents/AppNotes/AN_124_User_Guide_For_FT_PROG.pdf) tool can be used to program U1001 & U1002 FT230X pin CBUS3 for VBUS_SENSE function. 
+    - This allows the FT230X IC to detect removal of the USB cable and resets the USB connection without a power cycle of the board.
+    
+12. U202 and U203 TPS62A02PDDCR used for the 3.3V and 1.1V power supplies is a 2A part. The system is low power and the 1A TPS62A01PDDCR should be sufficient and would provide a lower overcurrent trip point providing enhanced overcurrent protection. The 1A part is footprint and circuit compatible.
