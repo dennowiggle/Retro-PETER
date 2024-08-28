@@ -41,7 +41,7 @@ In addition there is an ESP32-S3 WiFi module for programming the FPGA and system
       | TMS           | AD3 | J601.4 |
       | TCK           | AD0 | J601.8 |
       | TDO           | AD2 | J601.10 |
-      | GND      | Module Specific | J503.1 or 3,5,6,7,9 |
+      | GND      | Module Specific | J503.1 or 3,5,7,9 |
 
    2. Method (2) uses an open source SPI programmer SW tool. 
        - Pin connections are as follows:

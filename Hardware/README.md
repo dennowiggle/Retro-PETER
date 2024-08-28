@@ -10,7 +10,7 @@ Schematic design PDF drawings can be found in the `output` sub-directory of each
 **Disclaimer** : This is a hobby project and a vehicle for play. Not intended to be a product or to be optimised for size, cost, function, or meet any standard. All boards are prototypes and should be considered such even if there are new revisions over time.
 
 ## Description
-Retro-PETER is a family of boards based around the Lattice LFE5U-25F-7TG144 FPGA to create a custom retro computer system.
+Retro-PETER is a family of boards based around the Lattice ECP5 FPGA to create a custom retro computer system.
 * [PETER](PETER "Peripheral ECP5 Technology and Entertainment Resource board.") base board with FPGA provides the peripheral features. It has on board SRAM memory but no CPU.
     - One 3.3V RCBUS connector provides a CPU slot.
     - One 3.3V RCBUS expansion connector allows connection of an RCBUS backplane for more card slots.
