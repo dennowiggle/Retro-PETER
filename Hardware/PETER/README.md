@@ -4,7 +4,7 @@ Peripheral ECP5 Technology and Entertainment Resource
 ## Description
 PETER is an FPGA board based around a Lattice ECP5 FPGA chip. It provides peripheral features for a plug in 3.3V RCBUS CPU card. 
 
-The PETER board provides video, audio, I2C, SPI, SNES controller, 2x USB UART, and PS2 keyboard and mouse connection to a Retro computer RCBUS. 
+The PETER board provides video, audio, I2C, SPI, SNES controller, 2x USB UART, and PS2 keyboard and mouse connection to a 3.3V RCBUS card slot and expansion connector. 
 
 In addition there is an ESP32-S3 WiFi module for programming the FPGA and system bootloader(s), Zilog ZDI, WiFi console and additonal features. There are on-board connectors for provision of a W5500 Wizmon Ethernet module and DS3132 Real Time Clock + AT24C32 EEPROM module.
 
@@ -62,7 +62,7 @@ In addition there is an ESP32-S3 WiFi module for programming the FPGA and system
    - Alternatively it can be programmed over ESP32 UART0 on pins J1105.11 and J1105.12. 
    - When using UART switch S1201 provides the 'boot' function to put the ESP32 into programming mode. 
    - USB JTAG does not require the boot switch. 
-   - Both methods require use of ESP32 programming tool found in Arduino, Platform IO, or Esspressif SW tools.
+   - Both methods require use of the ESP32 programming tool found in Arduino, Platform IO, or Esspressif SW tools.
 
 ## PETER Board Rev 0.0 Release Notes
 
@@ -78,9 +78,9 @@ In addition there is an ESP32-S3 WiFi module for programming the FPGA and system
 
 5. USB UART TX/RX LED's are rather weak compared to the other LED's on the board. The resistor in series with each LED can be changed to a lower value (eg 270ohms).
    - Resistor locations are R1001, R1002, R1007, R1008.
-   - Note : in general the LED's are low light by design.
+   - Note : in general the LED's are low light by design. This is intentional.
 
-6. R401 should be 10K instead of 0 ohms if R401 is populated. This is intentional.
+6. R401 should be 10K instead of 0 ohms if R401 is populated.
 
 7. J301 RCBUS expansion connector part number was changed to PH2RA-80-UA which has a gold flash plating providing less resistance during plug/unplug. 
 
@@ -88,7 +88,7 @@ In addition there is an ESP32-S3 WiFi module for programming the FPGA and system
 
 9. Reset signal FPGA_CRESET_N high level = 2.77V due to being open drain and Q604 having 20K biasing resistance. This meets the 2V Vih requirement of the FPGA pin. If a higher level is desired change R617 to 1K.
 
-10. The SRAM memory MEM_WE_N, MEM_OE_N, and MEM_CE_N signals are rounted through the FPGA and as a consequence there is about a ~10ns delay from the CPU_WR_N, CPU_RD_N, CPU_MREQ_N signals to their SRAM equivalent signals. 
+10. The SRAM memory MEM_WE_N, MEM_OE_N, and MEM_CE_N signals are routed through the FPGA and as a consequence there is about a ~10ns delay from the CPU_WR_N, CPU_RD_N, CPU_MREQ_N signals to their SRAM equivalent signals. 
     - If direct connection is needed for timing needs then the RCBUS board can be designed to directly connect to the SRAM memory signals. Alternatively the RCBUS expansion connector provides pins where jumper wires can be attached.
 
 11. The [FTDI DT_PROG](https://www.ftdichip.com/Support/Documents/AppNotes/AN_124_User_Guide_For_FT_PROG.pdf) tool can be used to program U1001 & U1002 FT230X pin CBUS3 for VBUS_SENSE function. 

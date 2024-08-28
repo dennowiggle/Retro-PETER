@@ -2,7 +2,7 @@
 A Retro computer project => FPGA peripheral board + 3.3V RCBUS slot + CPU board(s) making a custom system.
 
 ## Description
-Retro-PETER is a family of boards based around the Lattice LFE5U-25F-7TG144 FPGA to create a custom retro computer system.
+Retro-PETER is a family of boards based around the Lattice ECP5 FPGA to create a custom retro computer system.
 * [PETER](Hardware/PETER "Peripheral ECP5 Technology and Entertainment Resource board.") base board with FPGA provides the peripheral features. It has on board SRAM memory but no CPU.
     - One 3.3V RCBUS connector provides a CPU slot.
     - One 3.3V RCBUS expansion connector allows connection of an RCBUS backplane for more card slots.
@@ -22,7 +22,6 @@ John Winans has a video series and boards for an ice40HX4K + Z180 CPU card. This
     - Supporting  [2057-ice40HX4K](https://github.com/johnwinans/2057-ICE40HX4K-TQ144-breakout) board.
     - [Code](https://github.com/johnwinans/Verilog-Examples) for Series.
 * John's Basement [Z80 Nouveau](https://www.youtube.com/playlist?list=PL3by7evD3F52rUbThUNDYGxNpKFF1HCNT) YouTube series.
-    -Supporting [2067-Z8S180](https://github.com/johnwinans/2067-Z8S180/) board.
+    - Supporting [2067-Z8S180](https://github.com/johnwinans/2067-Z8S180/) board.
     - [Code](https://github.com/johnwinans/2067-Z8S180/tree/main/fpga) for Series.
-* Johns Z80 Retro! [Discord](https://discord.gg/g8UJeMXs) channel.
-
+* Johns Z80 Retro! [Discord](https://discord.gg/jf73DRZvh5) channel.
