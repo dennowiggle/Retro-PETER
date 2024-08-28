@@ -5,9 +5,9 @@ Hardware design files in KiCad 8 format are located here.
 
 Schematic design PDF drawings can be found in the `output` sub-directory of each board directory.
 
-**WARNING** : This is a 3.3V system and any connections to PETER, including RCBUS, must NOT exceed 3.3V.
+**Warning** : This is a 3.3V system and any connections to PETER, including RCBUS, must NOT exceed 3.3V.
 
-**Disclaimer** This is a hobby project and a vehicle for play. Not intended to be a product or to be optimised for size, cost, function, or meet any standard. All boards are prototypes and should be considered such even if there are new revisions over time.
+**Disclaimer** : This is a hobby project and a vehicle for play. Not intended to be a product or to be optimised for size, cost, function, or meet any standard. All boards are prototypes and should be considered such even if there are new revisions over time.
 
 ## Description
 Retro-PETER is a family of boards based around the Lattice LFE5U-25F-7TG144 FPGA to create a custom retro computer system.

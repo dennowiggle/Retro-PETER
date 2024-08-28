@@ -8,9 +8,9 @@ The PETER board provides video, audio, I2C, SPI, SNES controller, 2x USB UART, a
 
 In addition there is an ESP32-S3 WiFi module for programming the FPGA and system bootloader(s), Zilog ZDI, WiFi console and additonal features. There are on-board connectors for provision of a W5500 Wizmon Ethernet module and DS3132 Real Time Clock + AT24C32 EEPROM module.
 
-**WARNING** : This is a 3.3V system and any connections to PETER, including RCBUS, must NOT exceed 3.3V.
+**Warning** : This is a 3.3V system and any connections to PETER, including RCBUS, must NOT exceed 3.3V.
 
-**Disclaimer** This is a hobby project and a vehicle for play. Not intended to be a product or to be optimised for size, cost, function, or meet any standard. All boards are prototypes and should be considered such even if there are new revisions over time.
+**Disclaimer** : This is a hobby project and a vehicle for play. Not intended to be a product or to be optimised for size, cost, function, or meet any standard. All boards are prototypes and should be considered such even if there are new revisions over time.
 
 ## Top View
 ![PETER Top View Board Image](output/PETER_V0_3d_Top.jpg "Top View of the Peripheral ECP5 Technology and Entertainment Resource board.")
@@ -93,5 +93,5 @@ In addition there is an ESP32-S3 WiFi module for programming the FPGA and system
 
 11. The [FTDI DT_PROG](https://www.ftdichip.com/Support/Documents/AppNotes/AN_124_User_Guide_For_FT_PROG.pdf) tool can be used to program U1001 & U1002 FT230X pin CBUS3 for VBUS_SENSE function. 
     - This allows the FT230X IC to detect removal of the USB cable and resets the USB connection without a power cycle of the board.
-    
+
 12. U202 and U203 TPS62A02PDDCR used for the 3.3V and 1.1V power supplies is a 2A part. The system is low power and the 1A TPS62A01PDDCR should be sufficient and would provide a lower overcurrent trip point providing enhanced overcurrent protection. The 1A part is footprint and circuit compatible.
