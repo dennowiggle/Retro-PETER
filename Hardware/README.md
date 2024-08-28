@@ -1,74 +1,26 @@
-# PETER
-Peripheral ECP5 Technology and Entertainment Resource
+# Retro-PETER Hardware Design Files
+A Retro computer project => FPGA peripheral board + RCBUS + CPU board(s) making a custom system.
+
+Hardware design files in KiCad 8 format are located here. Schematic design PDF drawings can be found in the `output` sub-directory of each board directory.
 
 ## Description
-Peter is an FPGA board based around a Lattice ECP5 FPGA chip. It provides peripheral features for a plug in 3.3V RCBUS CPU card. PETER provides video, audio, I2C, SPI, SNES controller, 2x USB UART, and PS2 keyboard and mouse connection to a Retro computer RCBUS. In addition there is an ESP32-S3 Wifi module for programming the FPGA and bootloader(s), Zilog ZDI, WiFi console and additonal features. There are on-board connectors for provision of a W5500 Wizmon Ethernet module and DS3132 Real Time Clock + AT24C32 EEPROM module.
+Retro-PETER is a family of boards based around the Lattice LFEU-25F-7TG144 FPGA to create a custom retro system.
+* [PETER](PETER "Peripheral ECP5 Technology and Entertainment Resource board.") base board with FPGA provides the peripheral features. It has on board SRAM memory but no CPU.
+    - One 3.3V RCBUS connector provides a CPU slot.
+    - One 3.3V RCBUS expansion connector allows connection of an RCBUS backplane for more cards.
+* [GOLD](GOLD "GPIO On LED Display.") is a simple LED board that connects to 6 GPIO outputs for flashing lights and debug info. I love a binary counter.
+* [BALD](BALD "Bus Activity LED Display.") is an RCBUS LED card that flickers lights when there is activity. I found this useful for bringup of new CPU's either on an RCBUS CPU card or internal CPU cores.
+* [RANDY](RANDY "RCBUS Adapter to Nouveau Design. Yeah!") is a bus adapter from RCBUS to John's Basement 2067-Z8S180 card.
+* [ZORO](ZORO "Z8S180 On RCBUS Only.") is a Z180 RCBUS CPU card.
+* [SEWER](SEWER "Simple Eval With EZ80F91 on RCBUS") is an eZ80 CPU card.
 
-## Top View
-![PETER Top View Board Image](output/PETER_V0_3d_Top.jpg "Top View of the Peripheral ECP5 Technology and Entertainment Resource board.")
+## Background
+John Winans has a video series and boards for an ice40HX4K + Z180 CPU card. This project grew from following along with those video's and projects. You can follow John's work:
+* [John's Basement FPGA series](https://www.youtube.com/playlist?list=PL3by7evD3F52On-ws9pcdQuEL-rYbNNFB).
+    - [Supporting ice40HX4K board](https://github.com/johnwinans/2057-ICE40HX4K-TQ144-breakout).
+    - [Code for Series](https://github.com/johnwinans/Verilog-Examples).
+* [John's Basement Z80 Nouveau series](https://www.youtube.com/playlist?list=PL3by7evD3F52rUbThUNDYGxNpKFF1HCNT).
+- [Supporting Z8S180 board](https://github.com/johnwinans/2057-ICE40HX4K-TQ144-breakout).
+    - [Code for Series](https://github.com/johnwinans/2067-Z8S180/tree/main/fpga).
+* [Johns Z80 Retro!](https://discord.gg/g8UJeMXs) Discord channel.
 
-## Front View
-![PETER Front View Board Image](output/PETER_V0_3d_Front.jpg "Top View of the Peripheral ECP5 Technology and Entertainment Resource board.")
-
-## Rear View
-![PETER Rear View Board Image](output/PETER_V0_3d_Rear.jpg "Top View of the Peripheral ECP5 Technology and Entertainment Resource board.")
-
-## Side View
-![PETER Side View Board Image](output/PETER_V0_3d_Side.jpg "Top View of the Peripheral ECP5 Technology and Entertainment Resource board.")
-
-## Board Bring-up Status
-   - Most of the board has been tested and status is okay.
-   - Audio RTL on the FPGA has yet to be implmented so the audio port is not tested.
-   - The ESP32 SD card slot has not been tested.
-
-## Programming
-1. To program the FPGA FLASH you can use a FT232H module.
-   - Method (1) uses the open source ecpprog tool and JTAG. 
-   - Pin connections are as follows:
-
-| Signal        |  FT232H Module Pin  | PETER Location |
-| ------------- | ------------------- | ---------------- |
-| TDI           | AD1 | J601.2 |
-| TMS           | AD3 | J601.4 |
-| TCK           | AD0 | J601.8 |
-| TDO           | AD2 | J601.10 |
-| GND      | Module Specific | J503.1 or 3,5,6,7,9 |
-
-   - Method (2) uses an open source SPI programmer. 
-   - Pin connections are as follows:
-
-| Signal        |  FT232H Module Pin  | PETER Location |
-| ------------- | ------------------- | ---------------- |
-| SPI_CLK       | AD0 | J602.8 |
-| SPI_MOSI      | AD1 | J602.2 |
-| SPI_MISO      | AD2 | J602.10 |
-| SPI_CS_N      | AD3 | J602.4 |
-| CRESET/INIT_N | AD4 | J602.6 |
-| DONE          | AD5 | J602.5 |
-| GND      | Module Specific | J602.1, or 3,7,9 |
-
-   - Connector pin layout has been chosen so that the same programming cable is capable SPI and JTAG.
-
-2. The ESP32 is programmed using the J1202 USB connector in JTAG mode. Alternatively it can be programmed over ESP32 UART0 on pins J1105.11 and J1105.12. When using UART switch S1201 provides the 'boot' function to put the ESP32 into programming mode. USB JTAG does not require the boot switch. Both methods require use of ESP32 programming tool found in Arduino, Platform IO, or Esspressif SW tools.
-
-## PETER Board Rev 0.0 Release Notes
-
-1. The 'output' directory contains the BOM, netlist, and PDF schematic.
-
-2. Board design used KiCad 8.0.4.
-
-3. There are only four mounting holes. If the RCBUS card slot is used the board should be supported when plugging in the card.
-
-4. Silkscreen error
-   - J1106 silkscreen should show GPIO. Instead silkscreen shows USER I2C SPI.
-   - J1101 silkscreen should show USER I2C SPI. Instead silkscreen shows GPIO.
-
-5. USB Uart TX/RX LED's are rather weak compared to other LED's. May want to change resistor to lower value (eg 270ohms)?
-   - R1001, R1002, R1007, R1008.
-   - Note : in general the LED's are low light by design.
-
-6. R401 should be 10K instead of 0 ohms if R401 is populated.
-
-7. Reset signal FPGA_CRESET_N high = 2.77V due to being open drain and Q604 having 20K biasing resistance. This meets the 2V Vih requirement of the FPGA pin. If a higher level is desired change R617 to 1K.
-
-8. The SRAM memory MEM_WE_N, MEM_OE_N, and MEM_CE_N signals are rounted through the FPGA and as a consequence there is about a ~10ns delay from CPU_WR_N, CPU_RD_N, CPU_MREQ_N signals. If direct connection is needed The RCBUS board can be designed to directly connect to the SRAM memory signals. Alternatively the RCBUS expansion connector provides pins where jumper wires can be attached.
