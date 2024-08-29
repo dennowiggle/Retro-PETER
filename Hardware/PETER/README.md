@@ -62,7 +62,7 @@ In addition there is an ESP32-S3 WiFi module for programming the FPGA and system
    - Alternatively it can be programmed over ESP32 UART0 on pins J1105.11 and J1105.12. 
    - When using UART switch S1201 provides the 'boot' function to put the ESP32 into programming mode. 
    - USB JTAG does not require the boot switch. 
-   - Both methods require use of the ESP32 programming tool found in Arduino, Platform IO, or Esspressif SW tools.
+   - Both methods require use of the ESP32 programming tool found in Arduino, Platform IO, or Espressif SW tools.
 
 ## PETER Board Rev 0.0 Release Notes
 

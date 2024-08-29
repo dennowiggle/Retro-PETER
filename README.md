@@ -25,5 +25,5 @@ John Winans has a video series and boards for an ice40HX4K + Z180 CPU card aka Z
     - Supporting [2067-Z8S180](https://github.com/johnwinans/2067-Z8S180/) board.
     - [Code](https://github.com/johnwinans/2067-Z8S180/tree/main/fpga) for Series.
 * John's Basement [Z80 Retro](https://www.youtube.com/playlist?list=PL3by7evD3F51Cf9QnsAEdgSQ4cz7HQZX5) YouTube series covering CP/M.
-    - [CP/M SW](https://github.com/Z80-Retro/2063-Z80-cpm) to go along wuth the video series and which supports 2057-ice40HX4K + 2067-Z8S180 aka Z80 Nouveau.
+    - [CP/M SW](https://github.com/Z80-Retro/2063-Z80-cpm) to go along with the video series and which supports 2057-ice40HX4K + 2067-Z8S180 aka Z80 Nouveau.
 * Johns Z80 Retro! [Discord](https://discord.gg/jf73DRZvh5) channel.
