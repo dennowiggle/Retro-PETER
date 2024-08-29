@@ -2,7 +2,7 @@
 GPIO On LED Display
 
 ## Description
-GOLD is a small breakout board that connects to the GPIO connector on RANDY to display signal status on 6 LED's.
+GOLD is a small breakout board that connects to the GPIO connector on PETER to display signal status on 6 LED's.
 
 ## Top View
 ![GOLD Top View Board Image](output/GOLD_V0_3d_Top.jpg "Top View of the GPIO On LED Display board.")
