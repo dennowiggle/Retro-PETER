@@ -16,3 +16,4 @@ BALD is an RCBUS board with LED's to show bus activity.
 
 2. Board design used KiCad 8.0.4.
 
+3. J1 was changed to Adam Tech part number PH2RA-80-UA to reduce insertion force.
