@@ -1,0 +1,5 @@
+"Reference","Value","Footprint","Qty","DNP","Digikey","LCSC Part #","MPN","Voltage","Description"
+"C2,C4","100nF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","2","","311-1344-1-ND","C14663","CC0603KRX7R9BB104","50V","CAP CER 0.1UF 50V X7R 0603"
+"C1,C3","4.7uF","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","2","","1276-1784-1-ND","C19666","CL10A475KO8NNNC","16V","CAP CER 4.7UF 16V X5R 0603"
+"J1","Conn_02x30_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x30_P2.54mm_Vertical","1","","609-6334-ND","","67996-160HLF","","CONN HEADER VERT 60POS 2.54MM"
+"J2","Conn_02x40_Top_Bottom","WTM_Library:PinSocket_2x40_P2.54mm_Horizontal_RCBUS80","1","","612-SSW-140-02-T-D-RA-ND","","SSW-140-02-T-D-RA","","CONN RCPT 80POS 0.1 TIN PCB R/A"
