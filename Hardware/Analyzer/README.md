@@ -1,8 +1,9 @@
 # ANALYZER
 72 channel logic analyzer for RCBUS.
 
+
 ## Description
-ANALYZER is an RCBUS board with 3 x Pi Pico modules. 
+ANALYZER is a 72 channel logic analyzer in an RCBUS board form factor with 3 x Pi Pico modules. 
 
 This design is a derivative work of John Winans [S-100 bus logic analyzer](https://github.com/johnwinans/2070-S-100-bus-analyzer) targeted for RCBUS instead of S-100 bus for use on the PETER project.
 
@@ -12,8 +13,10 @@ Both projects use the Dr Gusman [LogicAnalyzer software and firmware](https://gi
 ## Top View
 ![ANALYZER Top View Board Image](output/Analyzer_V0_3D_Top.jpg "Top View of the RCBUS LogicAnalyzer board.")
 
+
 ## Bottom View
 ![ANALYZER Bottom View Board Image](output/Analyzer_V0_3D_Bottom.jpg "Bottom View of the RCBUS LogicAnalyzer board.")
+
 
 ## ANALYZER Board Rev 0.0 Release Notes
 
@@ -21,20 +24,23 @@ Both projects use the Dr Gusman [LogicAnalyzer software and firmware](https://gi
 
 2. Board design used KiCad 10.0
 
-3. Use sockets yo mount the PICO's so that they are elevated above the board for anyone wanting to try WiFi.
+3. Use sockets to mount the PICO's so that they are elevated above the board for anyone wanting to try WiFi.
+
 
 ## Notes for future
 1. Consider using 3 x individual Pico 10K pull-down resistors for
   - TRIG_CHA, TRIG_CHB, TRIG_CHC instead of R302 2.2K on TRIG.
   
+  
 2. Consider replacing D201 with 3 schottky diodes to VSYS_A, VSYS_B, VSYS_B.
   - Provides option for manually sequencing power via each Pico USB connector.
   - Useful for getting same tty device name in Linux on each power on.
 
+
 ## Analyzer Board Pi Pico Channel Mapping to Signal and Pin Names
 The [gusmanb software](https://github.com/gusmanb/logicanalyzer) only has the choice of 16 pins for trigger.
 
-The table below has the middle PICO as the master. With the RCBUS backplane you can jumper the desired trigger signal to one of the unused pins. e.g. custom pins 41, analyzer channels 1.
+The table below has the middle PICO as the master. With the RCBUS backplane you can jumper the desired trigger signal to one of the unused pins. e.g. custom pin 41, analyzer channel 1.
 
 
  | Pico A       | Single A | Multi A | PETER Signal | RCBUS Pin | RCBUS Name  | 
