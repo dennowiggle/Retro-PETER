@@ -17,7 +17,7 @@ The purpose of the card is to use it to learn 68000 programming.
 
 
 ## SPIFEE Board Rev 0.0 Release Notes
-1. The ['output'](output/) directory contains the BOM, netlist, and PDF schematic.
+1. The [output](output/) directory contains the BOM, netlist, and PDF schematic.
 
 2. Board design used KiCad 10.0
 

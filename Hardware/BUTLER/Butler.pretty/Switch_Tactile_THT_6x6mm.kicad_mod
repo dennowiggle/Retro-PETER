@@ -1,0 +1,453 @@
+(footprint "Switch_Tactile_THT_6x6mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English")
+	(property "Reference" "REF**"
+		(at 6.858 6.822 180)
+		(layer "F.SilkS")
+		(uuid "4c137d44-f124-42c0-bb47-761c266e4cca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1825910-6"
+		(at 3.6322 7.0866 180)
+		(layer "F.Fab")
+		(uuid "1a572540-b4cb-4ca4-9a4f-49297afd06b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d4fe901-6bd4-4b65-b9ea-e3a0ee2cc069")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f472973-4e98-4f77-a4ac-d28b6741e971")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digi-Key_PN" "450-1650-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb3f07cc-50c0-4776-bee4-1dd93529dace")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "1825910-6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54a24836-258f-4e15-83a9-2f5c097d7d47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Category" "Switches"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef3743b2-4308-4ceb-b069-781e36097fbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Family" "Tactile Switches"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68b7e0f5-fdf4-4cce-8d1d-c87159fe166c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dce851c5-ed14-4e9e-b530-375aced761d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK_Detail_Page" "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d5366cd-c7e5-4d88-81f6-5ad50435da15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "TE Connectivity ALCOSWITCH Switches"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab892daa-d618-458d-a02d-2b8dd599d5cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "Active"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "054a4b9b-8ffd-4c43-bfff-026e032f0e0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey" "450-1650-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87d029e9-e597-4a07-89d4-17219c68ca8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufactutrer" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "573944f9-2e52-4cde-99c5-27233028cfec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alt MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fde70a6-3192-4ae4-90f3-2524dd8978c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70ab33f6-a409-4dea-80d0-483864353648")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b8d5a8e-e93f-4c85-91b3-d3d89695c124")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85d8f2c7-871b-4c88-abc2-daf4174f19a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02316d31-16ac-450a-9996-0a63bff0201b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value2" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2046029d-8604-475d-97ee-8398e2504b06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "lcsc" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ada84729-54cc-4b69-a63b-56e3723a2d6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 0.2032 1.1938)
+		(end 0.2032 3.302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa74e3fa-006d-49b6-a940-a652a76054be")
+	)
+	(fp_line
+		(start 0.2032 1.2004)
+		(end -0.0468 1.2004)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91c7d709-1476-4114-a946-dc6a972c530f")
+	)
+	(fp_line
+		(start 1.2 -1.0414)
+		(end 5.8674 -1.0414)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d85d06f-efd8-4574-8335-a5431cca9652")
+	)
+	(fp_line
+		(start 5.8928 5.5626)
+		(end 0.6 5.5528)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45044b64-0189-4150-ab94-e458c719cc43")
+	)
+	(fp_line
+		(start 6.3092 1.2048)
+		(end 6.3092 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab33ba22-1d0f-41a3-85bf-bf3b1f95fff8")
+	)
+	(fp_line
+		(start -1.35 -1.35)
+		(end -1.35 5.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59276b29-77ec-4002-b5e8-6d9915840b86")
+	)
+	(fp_line
+		(start 7.85 -1.35)
+		(end -1.35 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51e079ed-473c-4440-a06e-42601eb8ceb2")
+	)
+	(fp_line
+		(start 7.85 -1.35)
+		(end 7.85 5.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b67e736d-9681-4ae2-8d6a-0a440ee040fd")
+	)
+	(fp_line
+		(start 7.85 5.85)
+		(end -1.35 5.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f95dbf4e-ff76-4f9b-8412-5bacb79af9b1")
+	)
+	(fp_line
+		(start 0.25 -1)
+		(end 0.25 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb53ab36-f662-43ce-934d-8fe57b6316db")
+	)
+	(fp_line
+		(start 0.25 -1)
+		(end 6.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04ea88aa-b722-4cdc-8464-7391b046550e")
+	)
+	(fp_line
+		(start 6.25 -1)
+		(end 6.25 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17dc43ce-46ee-4288-9e8a-3ad630aaf29a")
+	)
+	(fp_line
+		(start 6.25 5.5)
+		(end 0.25 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "306df856-d6f4-4b84-bf84-b6049b366bce")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.3782 2.286 180)
+		(layer "F.Fab")
+		(uuid "9f3d336d-a433-497e-80b1-1cf37dc7f8d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "a2294c7b-a9fb-4f0f-8842-6c0816387da2")
+	)
+	(pad "2" thru_hole circle
+		(at 6.5 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "95729c4d-2605-4388-91c3-629cea93e9c0")
+	)
+	(pad "3" thru_hole circle
+		(at 0 4.5)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "0ebb9ed0-3d9c-488d-a7dd-9577b962b1f6")
+	)
+	(pad "4" thru_hole circle
+		(at 6.5 4.5)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "7494d52f-b74c-4f6d-871b-3dd7dc3be8d9")
+	)
+	(embedded_fonts no)
+)

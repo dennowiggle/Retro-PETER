@@ -1,0 +1,395 @@
+(footprint "LTST-S270KGKT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.23 3.302 180)
+		(layer "F.SilkS")
+		(uuid "e325b0d5-37d8-4a73-9912-6b7a9c1b2769")
+		(effects
+			(font
+				(size 1.002417 1.002417)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_LTST-S270KGKT"
+		(at 1.910042 2.159 180)
+		(layer "F.Fab")
+		(uuid "726fb3fd-aba8-4d49-af76-86b10612db23")
+		(effects
+			(font
+				(size 1.002646 1.002646)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d6df832-1d24-4cb5-b483-93c5c8bb2f21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LED 571NM GREEN CLEAR CHIP 0603 R/A"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b755f64-d631-44be-bab2-7e3a01d0cdb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey" "160-1478-1-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e694aa2-2a1d-4ee9-a8c6-2c3423eca0d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "LTST-S270KGKT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "871f84d6-aa6a-4c9d-833e-3bb1779e8f5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Category" "Optoelectronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1ae46cb-96f8-4ba3-a220-bac696594c1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Family" "LED Indication - Discrete"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20e12a3f-e0c7-439b-af16-306992f0b2c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Lite-On Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "664d0fd9-f3f0-402d-9e85-c6177949d0d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" "C125113"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "266b49f4-caab-407f-a51a-997978b11d7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufactutrer" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6354382-713b-40e8-b6e5-06d4fb782c1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alt MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7a48ca4-5f76-42d3-8d59-6d6e30fd454a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63b70368-cd05-44c3-a5bf-6389c26cfcc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9136009c-3b35-4f2c-a254-b1dd13070fcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9df0bb3e-7019-488c-881a-66c0d7529631")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72ba2ced-bb05-49e2-bb08-4ceb2300d410")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value2" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad05419a-be45-4097-8375-72dfd5537593")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "lcsc" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ea816b2-e1e3-42fb-974b-22cf1b18c2cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 -0.708)
+		(end -1.65 0.762)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7bfbebe-8bf9-4f24-8dde-55d703ba254d")
+	)
+	(fp_line
+		(start -1.65 0.762)
+		(end 0.635 0.762)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d23c15b-8083-4798-9f8f-9cae0ba2fb6f")
+	)
+	(fp_line
+		(start -0.62 -0.82)
+		(end 0.58 -0.82)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "87f99e0b-aa46-46b7-ac35-3e889cf9814f")
+	)
+	(fp_line
+		(start -0.62 -0.56)
+		(end -0.62 -0.82)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ba6f859-d474-48c4-b848-e66ec787630a")
+	)
+	(fp_line
+		(start 0.58 -0.56)
+		(end 0.58 -0.82)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a163fa28-814e-4ef8-a39a-5c3cfa549b42")
+	)
+	(fp_line
+		(start 0.635 -0.754)
+		(end -1.65 -0.754)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22c72c92-95b6-4b96-997e-4c6ea1a9ed0a")
+	)
+	(fp_rect
+		(start -1.651 -0.762)
+		(end 1.651 0.762)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c5d43ec8-9d55-4f9c-92d3-4b297c464bde")
+	)
+	(fp_line
+		(start -1.143 -0.119)
+		(end -1.143 0.381)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61d1297d-4374-4c25-9bc0-c3fef38d64bb")
+	)
+	(fp_line
+		(start -1.143 0.381)
+		(end 1.016 0.381)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2065b8d-27fe-49b4-8362-77b2633d39cc")
+	)
+	(fp_line
+		(start -0.889 -0.419)
+		(end -1.143 -0.119)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc05142c-539a-4f9d-b30f-769c8f692328")
+	)
+	(fp_line
+		(start 1.016 -0.419)
+		(end -0.889 -0.419)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d61ddaa-0a80-4c8d-965b-6fe43fcdebd5")
+	)
+	(fp_line
+		(start 1.016 0.381)
+		(end 1.016 -0.419)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2a2979e-10f8-4aa7-ba4b-7aa763666adf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.127 0 180)
+		(layer "F.Fab")
+		(uuid "b6c7b3fe-e865-454f-89f4-40d63d4dc05c")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.85 0)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "b1ffd0bf-30b0-4907-8a43-943355cd05bb")
+	)
+	(pad "2" smd roundrect
+		(at 0.85 0)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "fd9c982b-3b29-4000-8de6-40bcaad5c15b")
+	)
+	(embedded_fonts no)
+	(model "D:/Electronics/KiCAD/Libraries/WTM/3D/LTST-S270KGKT.step"
+		(offset
+			(xyz 0 -0.35 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

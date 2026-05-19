@@ -1,0 +1,264 @@
+(footprint "CUI_TB001-500-02BE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.135 -6.2605 180)
+		(layer "F.SilkS")
+		(uuid "42c4702b-354b-477d-b335-3a4e646d04ab")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Screw_Terminal_01x02"
+		(at 12.502 5.361 180)
+		(layer "F.Fab")
+		(uuid "d0f2f55c-dbc5-4b0e-b4e8-37a8cd59d494")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.cuidevices.com/product/resource/tb001-500.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6a1ac65-dbfa-4471-9ecb-b7eaad7a0a66")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TERM BLOCK, SCREW TYPE, 5.00MM PCB"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36d10e2e-b843-487f-b08f-79f7cc880383")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey" "102-6134-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fec32d3f-1b83-45b5-a79c-e62496e3a862")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "CUI Devices"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "840101f0-b49a-46bd-b730-eb48e4f88df2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "TB001-500-02BE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "621d5a89-303a-4881-a4a2-b899561f0653")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -2.5 -5)
+		(end 7.5 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c8eb124-1185-4351-a694-ec66f74ab779")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95ef3bf1-daeb-4ca9-ab72-7e13eeb086a5")
+	)
+	(fp_line
+		(start 7.5 -5)
+		(end 7.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9fe64c2-4ca2-4ff7-8ef2-8e98918835d2")
+	)
+	(fp_line
+		(start 7.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4fd4059-9cc3-40ab-99c1-ff3a0c85a6c2")
+	)
+	(fp_circle
+		(center 0 5)
+		(end 0.1 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "56b2ec5c-3bc2-41d8-86d3-a194cb4a0ac0")
+	)
+	(fp_line
+		(start -2.75 -5.25)
+		(end 7.75 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "246072fa-02e3-4843-89a9-b06ac168b287")
+	)
+	(fp_line
+		(start -2.75 4.25)
+		(end -2.75 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e879a93-61b5-447a-85cb-b3377797fea3")
+	)
+	(fp_line
+		(start 7.75 -5.25)
+		(end 7.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2226c586-0980-4279-beab-b708fb99e663")
+	)
+	(fp_line
+		(start 7.75 4.25)
+		(end -2.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b41eef26-dfc8-4012-8468-83351654046f")
+	)
+	(fp_line
+		(start -2.5 -5)
+		(end 7.5 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76acd413-98e7-4716-ba07-d8182689df9e")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b70c4a5-8c54-4920-bc8c-c9a7be5bcc56")
+	)
+	(fp_line
+		(start 7.5 -5)
+		(end 7.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5431b659-6253-4ad5-a92b-35888b56d68d")
+	)
+	(fp_line
+		(start 7.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "effad50e-8b18-4de0-b7d9-c0be32b79b2a")
+	)
+	(fp_circle
+		(center 0 5)
+		(end 0.1 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eaaa0b12-4936-46c1-bafb-eb7e190fad3f")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5609bac0-99ed-4216-94c0-666248a48a6c")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "50bfc22e-8f7f-4eea-91c2-9f36559ad4da")
+	)
+	(embedded_fonts no)
+	(model "D:/Electronics/KiCAD/Libraries/WTM/3D/TB001-500-02BE.step"
+		(offset
+			(xyz 20 5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
