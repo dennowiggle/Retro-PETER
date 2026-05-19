@@ -11,6 +11,7 @@ Retro-PETER is a family of boards based around the Lattice ECP5 FPGA to create a
 * [RANDY](Hardware/RANDY "RCBUS Adapter to Nouveau Design. Yeah!") is a bus adapter from RCBUS to John's Basement [2067-Z8S180](https://github.com/johnwinans/2067-Z8S180/) card.
 * [ZORO](Hardware/ZORO "Z8S180 On RCBUS Only.") is a Z180 RCBUS CPU card.
 * [SEWER](Hardware/SEWER "Simple Eval With EZ80F91 on RCBUS") is an eZ80 CPU card.
+* [ANALYZER](Hardware/Analyzer "Logic Analyzer for RCBUS using PI PICO 2") is a 5V tolerant 72 channel logic analyzer for RCBUS.
 
 **WARNING** : This is a 3.3V system and any connections to PETER, including RCBUS, must NOT exceed 3.3V.
 
