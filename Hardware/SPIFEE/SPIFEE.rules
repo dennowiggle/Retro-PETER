@@ -1,0 +1,149 @@
+
+(rules PCB SPIFEE
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1948)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.0)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.0)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+  )
+  (rule
+    (width 152.4)
+    (clearance 152.4)
+    (clearance 76.2 (type smd_to_turn_gap))
+    (clearance 38.2 (type smd))
+    (clearance 152.4 (type "kicad_default"))
+    (clearance 152.4 (type POWER))
+  )
+  (padstack "Via[0-3]_500:300_um"
+    (shape
+      (circle F.Cu 500.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 500.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 500.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 500.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_500:300_um" "Via[0-3]_500:300_um" default
+  )
+  (via 
+    "Via[0-3]_800:400_um" "Via[0-3]_800:400_um" default
+  )
+  (via 
+    "Via[0-3]_500:300_um-kicad_default" "Via[0-3]_500:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_800:400_um-kicad_default" "Via[0-3]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_500:300_um-POWER" "Via[0-3]_500:300_um" POWER
+  )
+  (via 
+    "Via[0-3]_800:400_um-POWER" "Via[0-3]_800:400_um" POWER
+  )
+  (via_rule
+    default "Via[0-3]_500:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_500:300_um-kicad_default"
+  )
+  (via_rule
+    POWER "Via[0-3]_800:400_um-POWER"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "I2C_SCL" "CPU_IPL1_N" "Net-(D302-Pad1)" "CPU_IPL2_N" "CPU_RESET_N" "CPU_A18" "CPU_A16" "CPU_A15"
+    "CPU_A12" "CPU_A7" "CPU_A6" "CPU_A5" "CPU_A4" "CPU_A3" "CPU_A2" "CPU_A1"
+    "CPU_A0" "CPU_D0" "CPU_D1" "CPU_D2" "CPU_D3" "CPU_D4" "CPU_D5" "CPU_D6"
+    "CPU_D7" "CPU_RD_N" "CPU_A10" "FLASH_CE_N" "CPU_A11" "CPU_A9" "CPU_A8" "CPU_A13"
+    "CPU_A14" "CPU_A17" "CPU_WR_N" "Net-(U301-OUT)" "EN_I2C_CLK" "I2C_SDA" "Net-(D304-Pad1)" "CPU_A23"
+    "CPU_BERR_N" "CPU_HALT_N" "Net-(R326-Pad1)" "Net-(R327-Pad1)" "CPU_A20" "/Cpu68000/CLOCK_I2C" "CPU_FC1" "Net-(R328-Pad1)"
+    "CPU_FC2" "Net-(R330-Pad1)" "CPU_FC0" "Net-(R329-Pad1)" "CPU_BR_N" "CPU_RW_N" "CPU_DTACK_N" "CPU_BG_N"
+    "CLOCK_CPU" "/Cpu68000/CPU_MODE_8BIT" "CPU_AVEC_N" "CPU_IPL0_N" "CPU_A19" "CPU_A21" "CPU_A22" "unconnected-(U302-D15-Pad45)"
+    "unconnected-(U302-D14-Pad46)" "unconnected-(U302-D13-Pad47)" "unconnected-(U302-D12-Pad48)" "unconnected-(U302-D11-Pad49)" "unconnected-(U302-D10-Pad50)" "unconnected-(U302-D9-Pad51)" "unconnected-(U302-D8-Pad52)" "CPU_AS_N"
+    "unconnected-(U302-~{UDS}-Pad63)" "CPU_LDS_N" "Net-(R202-Pad1)" "/RcBusInterface/CPU_CLOCK_PHI" "/RcBusInterface/EN_PD" "Net-(D303-Pad1)" "unconnected-(J201-Pin_26-Pad26)" "unconnected-(J201-Pin_38-Pad38)"
+    "unconnected-(J201-Pin_39-Pad39)" "unconnected-(J201-Pin_40-Pad40)" "unconnected-(J201-Pin_41-Pad41)" "unconnected-(J201-Pin_42-Pad42)" "unconnected-(J201-Pin_43-Pad43)" "unconnected-(J201-Pin_45-Pad45)" "unconnected-(J201-Pin_46-Pad46)" "unconnected-(J201-Pin_59-Pad59)"
+    "unconnected-(J201-Pin_60-Pad60)" "/RcBusInterface/CPU_CLOCK_SRC" "unconnected-(J201-Pin_67-Pad67)" "unconnected-(J201-Pin_68-Pad68)" "unconnected-(J201-Pin_69-Pad69)" "unconnected-(J201-Pin_70-Pad70)" "unconnected-(J201-Pin_71-Pad71)" "unconnected-(J201-Pin_72-Pad72)"
+    "unconnected-(J201-Pin_73-Pad73)" "/RcBusInterface/RCBUS_I2C_SCL" "/RcBusInterface/RCBUS_I2C_SDA" "unconnected-(J201-Pin_80-Pad80)" "CLOCK_RC_IN" "Net-(R201-Pad2)" "Net-(D301-Pad1)" "Net-(D305-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class POWER
+    GND +3.3V
+    (clearance_class POWER)
+    (via_rule POWER)
+    (rule
+      (width 304.8)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

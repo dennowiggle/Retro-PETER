@@ -12,6 +12,7 @@ Retro-PETER is a family of boards based around the Lattice ECP5 FPGA to create a
 * [ZORO](Hardware/ZORO "Z8S180 On RCBUS Only.") is a Z180 RCBUS CPU card.
 * [SEWER](Hardware/SEWER "Simple Eval With EZ80F91 on RCBUS") is an eZ80 CPU card.
 * [ANALYZER](Hardware/Analyzer "Logic Analyzer for RCBUS using PI PICO 2") is a 5V tolerant 72 channel logic analyzer for RCBUS.
+* [SPIFEE](Hardware/SPIFEE "Sixty-eight thousand Processor Including Flash Engineering Eval") is an RCBUS board with an M68SEC000FU20 CPU that runs in 8-bit mode.
 
 **WARNING** : This is a 3.3V system and any connections to PETER, including RCBUS, must NOT exceed 3.3V.
 
