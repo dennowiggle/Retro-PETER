@@ -13700,7 +13700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SST39SF040-55"
+		(property "Value" "SST39LF040-55"
 			(at 226.9333 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
